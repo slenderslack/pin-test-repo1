@@ -3,5 +3,5 @@ ARG REVISION
 ARG SOURCE
 LABEL org.opencontainers.image.revision=$REVISION
 LABEL org.opencontainers.image.source=$SOURCE
-RUN echo '{"repo": "pin-test-repo1","base": "base1", "version": 9}' > dog.json
+RUN echo '{"repo": "pin-test-repo1","base": "base1", "version": 10}' > dog.json
 CMD ["cat", "dog.json"]

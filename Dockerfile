@@ -1,4 +1,4 @@
-FROM ubuntu:devel
+FROM ubuntu:focal
 ARG REVISION
 ARG SOURCE
 LABEL org.opencontainers.image.revision=$REVISION
